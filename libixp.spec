@@ -4,7 +4,7 @@
 
 Name: libixp
 Version: 0.4
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Plan9 file protocol library
 License: MIT
 Group: System/Libraries
@@ -30,7 +30,7 @@ libixp's server api is based heavily on that of Plan 9's lib9p.
 %package -n %{develname}
 Summary: Plan9 file protocol library
 Group: Development/C
-Requires:       %{libname} = %{version}
+Requires:       %{name} = %{version}
 Provides:       %{name}-devel = %{version}-%{release}
 
 %description -n %{develname}

@@ -13,7 +13,7 @@ Source: %name-%version.tar.gz
 
 %description
 libixp is a stand-alone client/server 9P library.
-libixp's server api is based heavily on that of Plan 9's lib9p.
+libixp's server api is heavily based on that of Plan 9's lib9p.
 
 %prep
 %setup -q -n %name-%version

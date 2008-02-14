@@ -8,6 +8,7 @@ Release: %mkrel 2
 Summary: Plan9 file protocol library
 License: MIT
 Group: System/Libraries
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://www.suckless.org/wiki/libs/libixp
 Source: %name-%version.tar.gz
 

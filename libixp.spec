@@ -4,7 +4,7 @@
 
 Name: libixp
 Version: 0.4
-Release: %mkrel 2
+Release: %mkrel 4
 Summary: Plan9 file protocol library
 License: MIT
 Group: System/Libraries

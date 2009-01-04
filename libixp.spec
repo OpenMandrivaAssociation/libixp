@@ -3,8 +3,8 @@
 %define develname %mklibname ixp -d
 
 Name: libixp
-Version: 0.4
-Release: %mkrel 4
+Version: 0.5
+Release: %mkrel 1
 Summary: Plan9 file protocol library
 License: MIT
 Group: System/Libraries
@@ -41,7 +41,7 @@ libixp's server api is based heavily on that of Plan 9's lib9p.
 %files -n %{develname}
 /usr/lib/*.a
 %{_includedir}/ixp.h
-%{_includedir}/ixp_fcall.h
+%{_includedir}/ixp_srvutil.h
 
 %package -n ixpc
 Summary: Plan9 file protocol client

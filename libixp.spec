@@ -6,7 +6,7 @@
 
 Name: libixp
 Version: 0.6
-Release: %mkrel -c %{hgdate} 1
+Release: %mkrel -c %{hgdate} 2
 Summary: Plan9 file protocol library
 License: MIT
 Group: System/Libraries
@@ -52,7 +52,6 @@ libixp's server api is based heavily on that of Plan 9's lib9p.
 %package -n ixpc
 Summary: Plan9 file protocol client
 Group: Networking/File transfer
-Requires: %name = %version-%release
 
 %description -n ixpc
 ixpc is a client to access a 9P file server from the command line

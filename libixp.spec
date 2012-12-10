@@ -60,3 +60,42 @@ or from shell scripts.
 %files -n ixpc
 %{_bindir}/ixpc
 %{_mandir}/man1/ixpc.1*
+
+
+%changelog
+* Wed Oct 19 2011 Bogdano Arendartchuk <bogdano@mandriva.com> 0.6-0.20110223.2mdv2012.0
++ Revision: 705337
+- removed bogus Requires left after spec cleanup
+
+* Tue Oct 18 2011 Matthew Dawkins <mattydaw@mandriva.org> 0.6-0.20110223.1
++ Revision: 705289
+- new version snapshot 0.6 339db5c6d2c9A
+  cleaned up spec and libdir for 64bit
+
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.5-3mdv2011.0
++ Revision: 620144
+- the mass rebuild of 2010.0 packages
+
+* Sun Sep 13 2009 Thierry Vignaud <tv@mandriva.org> 0.5-2mdv2010.0
++ Revision: 438634
+- rebuild
+
+* Sun Jan 04 2009 Jérôme Soyer <saispo@mandriva.org> 0.5-1mdv2009.1
++ Revision: 324859
+- New upstream release
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 0.4-4mdv2009.0
++ Revision: 248838
+- rebuild
+- fix no-buildroot-tag
+- fix frenglish
+
+* Wed Dec 12 2007 Jérôme Soyer <saispo@mandriva.org> 0.4-2mdv2008.1
++ Revision: 119049
+- Fix Requires
+
+* Wed Dec 12 2007 Jérôme Soyer <saispo@mandriva.org> 0.4-1mdv2008.1
++ Revision: 117844
+- import libixp
+
+

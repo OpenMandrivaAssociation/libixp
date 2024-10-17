@@ -10,7 +10,7 @@ Release: %mkrel -c %{hgdate} 2
 Summary: Plan9 file protocol library
 License: MIT
 Group: System/Libraries
-URL: http://www.suckless.org/wiki/libs/libixp
+URL: https://www.suckless.org/wiki/libs/libixp
 Source: http://hg.suckless.org/libixp/archive/%{changeset}.tar.gz
 
 %description
